@@ -1,0 +1,9 @@
+func printPersonInfo(name: String, age: Int, height: Int, weight: Int) {
+    print("\(name)")
+    print("Возраст \(age) год")
+    print("Рост \(height) см")
+    print("Вес \(weight) кг")
+}
+
+// Вызов функции для вывода информации о человеке
+printPersonInfo(name: "Трофимова Анастасия", age: 21, height: 165, weight: 45)
